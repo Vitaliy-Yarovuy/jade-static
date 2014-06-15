@@ -2,7 +2,7 @@
     "name": "jade-static"
   , "version": "1.1.0"
   , "description": "Serve static Jade files from an Express server."
-  , "homepage": "http://github.com/shovon/jade-static.git"
+  , "homepage": "http://github.com/Vitaliy-Yarovuy/jade-static.git"
   , "keywords": [
       "express"
     , "jade"
@@ -39,5 +39,5 @@
   , "directories": {
     "lib": "lib"
   }
-  , "main": "./lib/index.coffee"
+  , "main": "./lib/index.js"
 }

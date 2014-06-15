@@ -59,7 +59,7 @@ module.exports = (options) ->
 
             else if not err? and stats.isFile() and path.extname(d) is '.jade'
                 readAndSendTemplate d, res, next
-                
+
             # try to replace html file by jade template
             else if options.html? and path.extname(d) is '.html'
 
